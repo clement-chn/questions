@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Albert Sans", sans-serif;
+  background-color: #f3f8fd;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  font-family: "Dancing Script", cursive;
+  color: #fbbd40;
+  font-size: 2.7rem;
+  margin-bottom: 50px;
+}
+
+.hide {
+  display: none;
+}
+
+.question-container {
+  background-color: white;
+  -webkit-box-shadow: 0 0 15px #fbbd4027;
+          box-shadow: 0 0 15px #fbbd4027;
+  border-radius: 10px;
+  width: 80%;
+  padding: 15px;
+  margin-bottom: 40px;
+}
+
+.question-container .visible-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.question-container .visible-container .question {
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+}
+
+.question-container .visible-container .answer-btn {
+  height: 35px;
+  width: 35px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.question-container .answer {
+  border-top: solid 1px lightgray;
+  margin-top: 0px;
+  padding-top: 13px;
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+  .question-container {
+    width: 600px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
